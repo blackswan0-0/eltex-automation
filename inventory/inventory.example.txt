@@ -1,0 +1,11 @@
+# Example Eltex inventory
+# Replace addresses with your own lab devices
+
+#host 1
+192.0.2.10
+
+#host 2
+192.0.2.11
+
+#host 3
+192.0.2.12

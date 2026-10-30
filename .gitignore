@@ -1,0 +1,8 @@
+.venv/
+.env
+out/
+inventory/*.txt
+!inventory/*.example.txt
+secrets/
+__pycache__/
+*.py[cod]
