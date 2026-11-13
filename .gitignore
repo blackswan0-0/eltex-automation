@@ -1,6 +1,7 @@
 .venv/
 .env
 out/
+backups/
 inventory/*.txt
 !inventory/*.example.txt
 secrets/

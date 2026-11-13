@@ -2,11 +2,14 @@ import getpass
 import time
 from pathlib import Path
 
-INVENTORY = Path("inventory/inventory.example.txt")
-USER = "automation"
-NTP_SERVER = "192.0.2.20"
+INVENTORY = Path("inventory/devices.txt")
+USER = "admin"
+
+NTP_SERVER = "198.51.100.10"
+TIMEZONE = "UTC +3"
+
 COMMANDS = [
-    "clock timezone MSK +3",
+    f"clock timezone {TIMEZONE}",
     "clock source ntp",
     f"ntp server {NTP_SERVER}",
 ]
